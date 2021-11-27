@@ -1,7 +1,7 @@
 body {
     background-repeat: no-repeat;
     background-size: cover;
-    
+    font-family: 'IBM Plex Sans Hebrew', sans-serif;
   }
   
   #body {
@@ -30,7 +30,7 @@ body {
   }
 
   .nav a {
-    font-family: soleil, sans-serif;
+   
     font-weight: 100;
     font-size: 25px;
     color: white;
@@ -48,14 +48,36 @@ body {
 
 
   /* ============================================== */
-  #home
-  {
-      height: 100vh;
-      margin: 0;
-      padding: 0;
-      width: 100%;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: 100% 100%;
-      background-attachment: scroll;
-  }
+#start{ 
+    /* text-align: center; */
+    color:white;
+    font-size: 20px;
+    
+    height: 100%; 
+    background-size: 100% 100%;
+}
+#start .title{
+  font-size: 90px;
+  margin-bottom: 0;
+  font-family: 'Quantico', sans-serif;
+  font-weight: 500;
+  margin-top: 13%;
+ 
+}
+#start .container{
+  /* position: relative; */
+  text-align: center;
+  margin: 0;
+}
+#start .subtitle
+{
+   padding: 30px;
+   margin-top: 12%;
+}
+#start button
+{
+  border: none;
+  padding: 10px;
+  margin-left: 20px;
+  cursor: pointer;
+}
