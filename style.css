@@ -5,12 +5,12 @@ body {
   #home{
     width: 100%;
     height: 100%;
-    margin-top: -8px;
+    
   }
   nav { 
     position: sticky;
-    top:0 ;
     left: 0;
+    margin-top: -8px;
     width: 100%;
     height: 60px;
     display: grid;
@@ -22,7 +22,7 @@ body {
     font-size: 18px;
     padding: 20px 0 0 40px;
   }
-  .about{
+  .aboutTxt{
     background-color: #C3A28C;
     text-decoration: none;
     padding: 20px 0 0 40px;
@@ -35,6 +35,72 @@ body {
     width: 100%;
     height: 100%;
     margin: auto;
+    padding-bottom: 30px;
   }
-
+  hr{
+    width: 50%;
+    color: #C3A28C;
+    height: 3px;
+    border: none;
+    background-color: #C3A28C;
+  }
   /* ============================================== */
+  #about{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 65% auto;
+    padding: 80px 0px 40px 40px;
+  }
+  #about h1{
+    font-size: 60px;
+    margin-left: 55px;
+    margin-top: 0;
+  }
+  #about h6{
+    font-size: 10px;
+    text-align: center;
+    color: #A49999;
+    font-style: italic;
+    margin-top: 0;
+    font-weight: lighter;
+  }
+ #about video{
+   width: 100%;
+   margin-top: 20px;
+   /* margin-bottom: 20px; */
+ }
+ #about .srs_text{
+   margin-top: 120px;
+    padding: 0px 0 0 20px;
+    font-size: 20px;
+    color: #C49D83;
+    border-left: 8px solid #C3A28C;
+ }
+ #about .btn_text{
+    padding-top: 15px;
+ }
+ #about .apkBtn{
+   float: right;
+   border: 1px solid #8E8B8B;
+   border-radius: 50px;
+   padding: 10px 20px 10px 20px;
+   color: #8E8B8B;
+   font-weight: lighter;
+   font-style: italic;
+   font-size: 14px;
+   cursor: pointer;
+ }
+ #about .pcBtn{
+   margin-left: 20px;
+   color: #8E8B8B;
+   font-weight: lighter;
+   font-size: 14px;
+   cursor: pointer;
+ }
+ 
+ @media (min-width:760px) {
+   body{
+     overflow-x: hidden;
+   }
+   
+ }
