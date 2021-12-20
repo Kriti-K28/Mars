@@ -9,6 +9,7 @@ body {
   }
   nav { 
     position: sticky;
+    top: 0;
     left: 0;
     margin-top: -8px;
     width: 100%;
@@ -98,6 +99,38 @@ body {
    cursor: pointer;
  }
  
+
+ /* ======================================= */
+
+ .gallery{
+   overflow-y: hidden;
+   overflow-x: auto;
+   height: 400px;
+   flex-wrap: nowrap;
+   width: 100%;
+   display: flex;
+   column-gap: 25px;
+ }
+ .gallery::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.gallery {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* ============== */
+.footer{
+  height: 20px;
+  background-color: #C3A28C;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: -8px;
+}
+
+
  @media (min-width:760px) {
    body{
      overflow-x: hidden;
