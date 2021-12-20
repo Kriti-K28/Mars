@@ -21,12 +21,12 @@ body {
     background-color: white;
     text-decoration: none;
     font-size: 18px;
-    padding: 20px 0 0 40px;
+    padding: 15px 0 0 40px;
   }
   .aboutTxt{
     background-color: #C3A28C;
     text-decoration: none;
-    padding: 20px 0 0 40px;
+    padding: 15px 0 0 40px;
     font-size: 18px;
     color: white;
   }
@@ -104,21 +104,23 @@ body {
 
  .gallery{
    overflow-y: hidden;
-   overflow-x: auto;
+   overflow-x: scroll;
    height: 400px;
    flex-wrap: nowrap;
    width: 100%;
    display: flex;
    column-gap: 25px;
+   margin-top: 20px;
  }
- .gallery::-webkit-scrollbar {
+
+body::-webkit-scrollbar{
   display: none;
 }
 
 /* Hide scrollbar for IE, Edge and Firefox */
 .gallery {
   -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  scrollbar-width: 5px;  /* Firefox */
 }
 
 /* ============== */
