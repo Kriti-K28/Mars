@@ -1,5 +1,8 @@
 body {
-    
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
   font-family: 'Quantico', sans-serif;
   }
   #home{
@@ -11,7 +14,6 @@ body {
     position: sticky;
     top: 0;
     left: 0;
-    margin-top: -8px;
     width: 100%;
     height: 60px;
     display: grid;
@@ -49,11 +51,11 @@ body {
   #about{
     width: 100%;
     display: grid;
-    grid-template-columns: 25% 65% auto;
-    padding: 80px 0px 40px 40px;
+    grid-template-columns: 25% 65% 10%;
+    padding: 8% 0px 00px 0px;
   }
   #about h1{
-    font-size: 60px;
+    font-size: 5em;
     margin-left: 55px;
     margin-top: 0;
   }
@@ -71,7 +73,7 @@ body {
    /* margin-bottom: 20px; */
  }
  #about .srs_text{
-   margin-top: 120px;
+   margin-top: 12%;
     padding: 0px 0 0 20px;
     font-size: 20px;
     color: #C49D83;
@@ -92,7 +94,7 @@ body {
    cursor: pointer;
  }
  #about .pcBtn{
-   margin-left: 20px;
+   margin-left: 2%;
    color: #8E8B8B;
    font-weight: lighter;
    font-size: 14px;
@@ -107,20 +109,15 @@ body {
    overflow-x: scroll;
    height: 400px;
    flex-wrap: nowrap;
-   width: 100%;
+   width: 98%;
    display: flex;
    column-gap: 25px;
    margin-top: 20px;
+   margin-left: 2%;
  }
 
 body::-webkit-scrollbar{
   display: none;
-}
-
-/* Hide scrollbar for IE, Edge and Firefox */
-.gallery {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: 5px;  /* Firefox */
 }
 
 /* ============== */
@@ -128,11 +125,46 @@ body::-webkit-scrollbar{
   height: 20px;
   background-color: #C3A28C;
   width: 100%;
-  margin-top: 50px;
-  margin-bottom: -8px;
+  margin-top: 8%;
 }
 
 
- /* @media (min-width:760px) {
-  
- } */
+@media only screen and (max-width: 600px) {
+  body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    }
+    nav{
+      height: 40px;
+    }
+    .msc , .aboutTxt{
+      font-size: 0.5em;
+      padding: 5px 0 0 10px;
+    }
+    #about{
+      font-size: 0.5em;
+    }
+    #about video{
+      width: 100%;
+      margin-top: 30%;
+      /* margin-bottom: 20px; */
+    }
+    #about .btn_text{
+      margin-left: -20%;
+      padding: 0;
+   }
+   .apkText{
+     font-size: 2em;
+   }
+   .gallery{
+     margin-top: 30%;
+     margin-left: -10%;
+     height: 100px;
+     width: 100%;
+   }
+   #footer{
+     margin-top: 0;
+   }
+    
+}
