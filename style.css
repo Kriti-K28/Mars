@@ -133,9 +133,6 @@ body::-webkit-scrollbar{
 }
 
 
- @media (min-width:760px) {
-   body{
-     overflow-x: hidden;
-   }
-   
- }
+ /* @media (min-width:760px) {
+  
+ } */
