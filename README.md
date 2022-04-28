@@ -5,6 +5,10 @@
 ##### Download the apk/exe file 
 #### If apk- Use Google cardboard headset to view the simulation and controller to move in the space
 #### If exe
-##### Download zip, extract folder and open MissionMars.exe file
-##### Interact with button, use arrow keys to move in space
-##### Press alt+f4 to exit full screen 
+#### Download zip, extract folder and open MissionMars.exe file
+#### Interact with button, use arrow keys to move in space
+#### Press alt+f4 to exit full screen 
+### To view source code visit
+#### https://github.com/Kriti-K28/MissionMarsVR
+### Documentation
+##### https://docs.google.com/document/d/1TpHVCuMmgjv4BNc3KUkOgn1GLXO1t-20QiLjpyrJAHU/edit?usp=sharing
